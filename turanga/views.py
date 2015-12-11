@@ -31,12 +31,12 @@ def crash(request):
         if 'log' in request.POST and request.POST['log']:
             log = request.POST["log"]
         else:
-            return HttpResponse("no file!")
+            return HttpResponse("no log!")
 
         if 'platform' in request.POST and request.POST['platform']:
             service = request.POST['platform']
         else:
-            return HttpResponse("no file!")
+            return HttpResponse("no platform!")
 
         pub_date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 

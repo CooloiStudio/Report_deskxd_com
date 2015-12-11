@@ -114,7 +114,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = '/static/'
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR,  '/home/ument/WorkSpace/report_deskxd_com/home/templates'),
+    os.path.join(BASE_DIR,  '/home/ument/WorkSpace/Report_deskxd_com/home/templates'),
 )
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR), 'static']
